@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#e87a35"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/daftar"
+            android:onClick="REGISTER"
+            android:layout_marginTop="280dp"
+            android:layout_marginLeft="60dp"
+            android:backgroundTint="#fff"
+            android:text="Register now"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#fff"
+            android:layout_marginTop="280dp"
+            android:layout_marginLeft="230dp"
+            android:id="@+id/login"
+            android:onClick="LOGIN"
+            android:text="Login"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
